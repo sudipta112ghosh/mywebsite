@@ -14,11 +14,9 @@
 a:link, a:visited {
   background-color: lightgrey;
   color: black;
-  width: 528px;
-  height: 18px;
-  padding-top:15px;
-  padding-left:15px;
-  padding-bottom:20px;
+  width: 100%;
+  padding-top:5px;
+  padding-bottom:5px;
   
   text-align: justify;
   text-decoration: none;
@@ -29,11 +27,11 @@ a:hover, a:active {
 }
 .left {
   float: left;
-  width: 40%;
+  width: 50%;
   }
 .right {
   float: left;
-  width: 40%;
+  width: 50%;
   }
 @media only screen and (max-width: 620px) {
   /* For mobile phones: */
@@ -44,11 +42,11 @@ a:hover, a:active {
 </head>
 <!-- for headline -->
 <body style="font-family:Verdana;color:#050000;">
-<div style="overflow:auto; background-color:#ffa2a2;text-align:center;height:73px;">
+<div style="padding-left:100px;overflow:auto; background-color:#ffa2a2;text-align:center;">
   <h1><a href="https://razorpay.com/" >
-  ----DATE with me       
+  DATE with me       
   <!-- geolocation -->
-  <span id="city"></span> --- </a></h1>
+  <span id="city"></span></a></h1>
   <script>
   src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"
 	$.ajax({
@@ -73,7 +71,7 @@ a:hover, a:active {
 <!-- right message + message-iframe -->
   <div class="right">
   <!-- right message link -->
-    <div>
+    <div style="padding-left:5px;padding-top:5px;padding-bottom:5px;">
     <a href="https://razorpay.com/" >MESSAGE Me--</a>
     </div>
 	<!--  message-iframe -->
@@ -82,9 +80,12 @@ a:hover, a:active {
     </div>
   </div>
 </div>
-<div style="overflow:auto">
-<div> <a href="geo.html" > geolocation-db </a> </div>
-<div> <a href="geo.html" > geolocation-db </a> </div>
+<div style="overflow:auto;padding-left:5px">
+<div style="padding-bottom:5px"> <a href="geo.html" > DATE with Me in your Area </a> </div>
+<div> <a href="geo.html" > PRIVATE SHOW for 10 minuts </a> </div>
+<div> <a href="geo.html" > PRIVATE SHOW for 20 minuts </a> </div>
+<div style="padding-bottom:5px"> <a href="geo.html" > PRIVATE SHOW for 1 hours </a> </div>
+<div> <a href="geo.html" > Meet Me in your Area </a> </div>
 </div>
 </body>
 </html> 
