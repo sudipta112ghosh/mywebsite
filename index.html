@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html>
-<head> 
+
+<head>
 <!-- for hover -- -->
-    <title>sabita VABI</title>
+    <title>sabita vabi</title>
 <!-- for geo location -- -->
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 <!-- for resposive site or mobile view --- -->
@@ -10,7 +11,6 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <style>
-
 a:link, a:visited {
   background-color: lightgrey;
   color: black;
@@ -25,13 +25,32 @@ a:link, a:visited {
 a:hover, a:active {
   background-color: lightgrey;
 }
+
+.container {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  padding-top: 56.25%; /* 16:9 Aspect Ratio */
+}
+
+.responsive-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
 .left {
   float: left;
   width: 50%;
   }
 .right {
   float: left;
-  width: 50%;
+  width: 44.8%;
   }
 @media only screen and (max-width: 620px) {
   /* For mobile phones: */
@@ -40,10 +59,11 @@ a:hover, a:active {
   }
 </style>
 </head>
+
 <!-- for headline -->
 <body style="font-family:Verdana;color:#050000;">
 <div style="padding-left:100px;overflow:auto; background-color:#ffa2a2;text-align:center;">
-  <h1><a href="https://razorpay.com/" >
+  <h1><a href="date with me in your area.html" >
   DATE with me       
   <!-- geolocation -->
   <span id="city"></span></a></h1>
@@ -62,34 +82,41 @@ a:hover, a:active {
     </script>
 </div>
 <!-- 1 video + message + message-iframe -->
-<div style="overflow:auto">
-  <!-- left video -->
 
-  <div class="left">
-    <iframe src="https://iframe.dacast.com/vod/ae74102e-e3f4-ee43-b998-5d6c3817805b/4e152af9-74dd-97a5-33ca-13e1a4773318" width="100%" height="100%" frameborder="0" scrolling="no" allow="autoplay" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+<div style="overflow:auto">
+
+<!-- left video -->
+ <div class="left">
+  <div class="container"> 
+  <iframe class="responsive-iframe" src="https://iframe.dacast.com/vod/ae74102e-e3f4-ee43-b998-5d6c3817805b/a5727d4e-b72e-fffc-81fb-d6d3de02adad" frameborder="0" scrolling="no" allow="autoplay" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
   </div>
+ </div>
+
 <!-- right message + message-iframe -->
-  <div class="right">
-  <!-- right message link -->
+ <div class="right">
+ <!-- right message link -->
     <div style="padding-left:5px;padding-top:5px;padding-bottom:5px;">
-    <a href="https://razorpay.com/" >MESSAGE Me--</a>
+    <a href="https://rzp.io/l/jk9iyQLnHB" >MESSAGE Me--</a>
     </div>
-	<!--  message-iframe -->
-    <div>
-    <iframe src="https://iframe.dacast.com/vod/ae74102e-e3f4-ee43-b998-5d6c3817805b/4e152af9-74dd-97a5-33ca-13e1a4773318" width="100%" height="50%" frameborder="0" scrolling="no" allow="autoplay" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
-    </div>
+	<!-- right video -->
+  <div class="container"> 
+  <iframe class="responsive-iframe" src="https://iframe.dacast.com/vod/ae74102e-e3f4-ee43-b998-5d6c3817805b/a5727d4e-b72e-fffc-81fb-d6d3de02adad" frameborder="0" scrolling="no" allow="autoplay" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
   </div>
+ </div>
+
 </div>
+
+<!-- the end links -->
 <div style="overflow:auto;padding-left:5px">
-<div style="padding-bottom:5px"> <a href="geo.html" > DATE with Me in your Area </a> </div>
-<div> <a href="geo.html" > PRIVATE SHOW for 10 minuts </a> </div>
-<div> <a href="geo.html" > PRIVATE SHOW for 20 minuts </a> </div>
-<div style="padding-bottom:5px"> <a href="geo.html" > PRIVATE SHOW for 1 hours </a> </div>
-<div> <a href="geo.html" > Meet Me in your Area </a> </div>
+<div style="padding-bottom:5px"> <a href="date with me in your area.html" > DATE with Me in your Area </a> </div>
+<div> <a href="https://rzp.io/l/jk9iyQLnHB" > PRIVATE SHOW for 10 minuts </a> </div>
+<div> <a href="https://rzp.io/l/jk9iyQLnHB" > PRIVATE SHOW for 20 minuts </a> </div>
+<div style="padding-bottom:5px"> <a href="https://rzp.io/l/jk9iyQLnHB" > PRIVATE SHOW for 1 hours </a> </div>
+<div > <a href="date with me in your area.html" > Meet Me in your Area </a> </div>
 </div>
 </body>
-</html> 
+</html>
 
 
-<!-- end -->
+
 
